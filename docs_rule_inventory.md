@@ -1,0 +1,49 @@
+# Rule Inventory
+
+Total configured rules: 42
+
+- **IT_CASH_EXPENSE_40A3** — Income-tax / Tax Audit — Cash business expenditure above Rs. 10,000
+  - Form 3CD: 21(d)
+- **IT_CASH_LOAN_269SS** — Income-tax / Tax Audit — Cash loan, deposit or specified sum of Rs. 20,000 or more
+  - Form 3CD: 31(a)
+- **IT_CASH_LOAN_REPAYMENT_269T** — Income-tax / Tax Audit — Cash repayment of loan/deposit of Rs. 20,000 or more
+- **IT_CASH_RECEIPT_269ST** — Income-tax / Tax Audit — Cash receipt exceeding Rs. 2 lakh
+  - Form 3CD: 31(ba)
+- **IT_TDS_MISSING_SECTION** — Income-tax / TDS — TDS candidate without TDS section
+- **IT_TDS_40AIA_CANDIDATE** — Income-tax / Tax Audit — Potential 30% disallowance for resident payment without TDS
+- **IT_TDS_194C_CANDIDATE** — TDS — Contractor payment requiring 194C review
+- **IT_TDS_194H_CANDIDATE** — TDS — Commission/brokerage payment requiring TDS review
+- **IT_TDS_194I_CANDIDATE** — TDS — Rent payment requiring TDS review
+- **IT_TDS_194J_CANDIDATE** — TDS — Professional/technical fee requiring TDS review
+- **IT_TDS_194Q_CANDIDATE** — TDS — Purchase from resident seller requiring 194Q review
+- **IT_TDS_194R_CANDIDATE** — TDS — Benefit/perquisite requiring 194R review
+- **IT_TDS_195_CANDIDATE** — Income-tax / International Tax — Payment to non-resident requiring section 195 review
+- **IT_43B_STATUTORY_DUES** — Income-tax / Tax Audit — Statutory dues requiring section 43B payment review
+- **IT_40A7_GRATUITY** — Income-tax / Tax Audit — Gratuity provision requiring section 40A(7) review
+- **IT_40A9_EMPLOYEE_FUND** — Income-tax / Tax Audit — Employee welfare fund contribution requiring section 40A(9) review
+- **IT_PARTNER_REMUNERATION_40B** — Income-tax / Tax Audit — Partner remuneration/interest requiring section 40(b) review
+- **IT_PROHIBITED_EXPENSE_37** — Income-tax / Tax Audit — Expense potentially prohibited by law or relating to an offence
+- **GST_MISSING_GSTIN** — GST — GST-relevant transaction without GSTIN
+- **GST_ITC_BLOCKED_17_5** — GST / ITC — Potential blocked input tax credit under section 17(5)
+- **GST_RCM_CANDIDATE** — GST / Reverse Charge — Potential reverse-charge transaction
+- **GST_EWAY_BILL_REVIEW** — GST / E-Way Bill — Goods movement above Rs. 50,000 requiring e-way bill review
+- **GST_INVOICE_DATA_GAP** — GST / Invoicing — Tax invoice data completeness review
+- **COMPANIES_ACT_185_DIRECTOR_LOAN** — Companies Act / Statutory Audit — Loan/advance to director or connected person
+- **COMPANIES_ACT_186_LOANS_INVESTMENTS** — Companies Act / Statutory Audit — Inter-corporate loan/investment/guarantee requiring section 186 review
+- **COMPANIES_ACT_188_RPT** — Companies Act / Statutory Audit — Related-party transaction requiring section 188 review
+- **COMPANIES_ACT_184_INTEREST_DISCLOSURE** — Companies Act / Statutory Audit — Director interest disclosure review
+- **COMPANIES_ACT_143_AUDIT** — Companies Act / Statutory Audit — Statutory-audit book-entry and personal-expense review
+- **COMPANIES_ACT_DEPOSITS_73** — Companies Act / Statutory Audit — Potential deposit acceptance requiring Companies Act review
+- **COMPANIES_ACT_CSR_135** — Companies Act / CSR — CSR expenditure and obligation review
+- **CARO_2020_STATUTORY_DUES** — Statutory Audit / CARO 2020 — Statutory dues reconciliation required
+- **CARO_2020_LOANS_ADVANCES** — Statutory Audit / CARO 2020 — Loans and advances requiring CARO review
+- **ACCOUNTING_PERSONAL_EXPENSE** — Accounting / Statutory Audit — Potential personal expense charged to business
+- **ACCOUNTING_ROUND_OFF_ANOMALY** — Accounting / Anomaly — Repeated round-value journal pattern
+- **MSMED_INTEREST_DUE** — MSMED Act / Statutory Audit — MSMED vendor payable requiring interest/disclosure review
+- **PF_ESI_UNPAID_REVIEW** — Labour Law / Statutory Audit — PF/ESI payable requiring timely-deposit review
+- **BONUS_GRATUITY_PAYABLE** — Labour Law / Statutory Audit — Employee bonus/gratuity liability review
+- **FEMA_FOREIGN_PAYMENT** — FEMA / International Tax — Foreign payment requiring FEMA and withholding review
+- **GST_RCM_IMPORT_SERVICE** — GST / International Tax — Import of service requiring IGST reverse-charge review
+- **COMPANIES_ACT_134_FINANCIAL_CONTROLS** — Companies Act / Statutory Audit — Internal financial control and accounting-process review
+- **COMPANIES_ACT_129_133_AS** — Companies Act / Accounting Standards — Financial-statement classification requiring Schedule III/AS/Ind AS review
+- **COMPANIES_ACT_148_COST_RECORDS** — Companies Act / Cost Records — Cost-record maintenance applicability review
