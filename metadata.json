@@ -1,0 +1,9 @@
+{
+  "name": "AI Tally Audit Agent",
+  "description": "Production-grade statutory audit and tax compliance screening engine for Chartered Accountants. Screen Tally accounting records against Form 3CD, CARO 2020, Income-tax, TDS, GST, Companies Act, and MSMED rules with automated anomaly detection and audit workpaper generation.",
+  "prompt": "AI Tally Audit Agent for Chartered Accountants with rule engine, Form 3CD and CARO 2020 screening, anomaly detection, and workpaper export.",
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ],
+  "permissions": []
+}
