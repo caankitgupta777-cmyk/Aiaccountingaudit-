@@ -22,6 +22,18 @@ interface HeaderProps {
   onExportCsv: () => void;
 }
 
+const FINANCIAL_YEARS: { value: FinancialYear; label: string }[] = [
+  { value: 'FY2018-19', label: 'FY 2018-19 (AY 2019-20)' },
+  { value: 'FY2019-20', label: 'FY 2019-20 (AY 2020-21)' },
+  { value: 'FY2020-21', label: 'FY 2020-21 (AY 2021-22)' },
+  { value: 'FY2021-22', label: 'FY 2021-22 (AY 2022-23)' },
+  { value: 'FY2022-23', label: 'FY 2022-23 (AY 2023-24)' },
+  { value: 'FY2023-24', label: 'FY 2023-24 (AY 2024-25)' },
+  { value: 'FY2024-25', label: 'FY 2024-25 (AY 2025-26)' },
+  { value: 'FY2025-26', label: 'FY 2025-26 (AY 2026-27)' },
+  { value: 'FY2026-27', label: 'FY 2026-27 (Tax Year 2026-27 / IT Act 2025)' },
+];
+
 export const Header: React.FC<HeaderProps> = ({
   config,
   onUpdateConfig,
@@ -160,10 +172,11 @@ export const Header: React.FC<HeaderProps> = ({
                   onChange={(e) => handleYearChange(e.target.value as FinancialYear)}
                   className="bg-slate-900 border border-slate-700 text-white rounded px-2 py-0.5 text-xs font-medium focus:outline-none focus:border-teal-500"
                 >
-                  <option value="FY2023-24">FY 2023-24 (AY 2024-25)</option>
-                  <option value="FY2024-25">FY 2024-25 (AY 2025-26)</option>
-                  <option value="FY2025-26">FY 2025-26 (AY 2026-27)</option>
-                  <option value="FY2026-27">FY 2026-27 (Tax Year 2026-27 / New Act)</option>
+                  {FINANCIAL_YEARS.map((fy) => (
+                    <option key={fy.value} value={fy.value}>
+                      {fy.label}
+                    </option>
+                  ))}
                 </select>
               </div>
             </div>

@@ -1,4 +1,13 @@
-export type FinancialYear = 'FY2023-24' | 'FY2024-25' | 'FY2025-26' | 'FY2026-27';
+export type FinancialYear = 
+  | 'FY2018-19' 
+  | 'FY2019-20' 
+  | 'FY2020-21' 
+  | 'FY2021-22' 
+  | 'FY2022-23' 
+  | 'FY2023-24' 
+  | 'FY2024-25' 
+  | 'FY2025-26' 
+  | 'FY2026-27';
 
 export type LawVersion = 'IT_ACT_1961' | 'IT_ACT_2025';
 
